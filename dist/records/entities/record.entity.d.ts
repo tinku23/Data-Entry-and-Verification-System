@@ -1,0 +1,30 @@
+import { Batch } from '../../batches/entities/batch.entity';
+import { AuditLog } from '../../audit-logs/entities/audit-log.entity';
+export declare class Record {
+    id: string;
+    property_address: string;
+    transaction_date: Date;
+    borrower_name: string;
+    loan_amount: number;
+    sales_price?: number;
+    down_payment?: number;
+    apn?: string;
+    status: string;
+    locked_by?: string;
+    lock_timestamp?: Date;
+    entered_by: string;
+    entered_by_date: Date;
+    reviewed_by?: string;
+    reviewed_by_date?: Date;
+    loan_officer_name?: string;
+    nmls_id?: string;
+    loan_term?: number;
+    source_image_url?: string;
+    county_website_url?: string;
+    batch_id?: string;
+    search_vector?: string;
+    created_at: Date;
+    updated_at: Date;
+    batch?: Batch;
+    audit_logs?: AuditLog[];
+}
