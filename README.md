@@ -43,7 +43,7 @@ A NestJS-based backend API for mortgage data entry and verification system. Prov
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/pintu544/Data-Entry-and-Verification-System
    cd mortgage-data
    ```
 
